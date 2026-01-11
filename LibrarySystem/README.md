@@ -1,4 +1,5 @@
-This is my solution for the Laboratory Activity 1: Java Programming Review. 
+Laboratory Activity 1: Java Programming Review. 
+Basic Library Book Management System
 
 A simple console application developed to demonstrate basic Java programming concepts.
 
