@@ -27,7 +27,7 @@ public class TaskForm extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // Close only this window
         setLayout(new BorderLayout(10, 10));
 
-        // Create form panel using GridLayout
+        // Creating the  form panel 
         JPanel formPanel = new JPanel(new GridLayout(4, 2, 10, 10));
         formPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
@@ -46,7 +46,7 @@ public class TaskForm extends JFrame {
         // 3. Description
         formPanel.add(new JLabel("Description:"));
         txtDesc = new JTextArea(3, 20);
-        // Wrap text area in scroll pane for better look
+       
         JScrollPane descScroll = new JScrollPane(txtDesc);
         formPanel.add(descScroll);
 
@@ -76,7 +76,7 @@ public class TaskForm extends JFrame {
     }
 
     private void saveTask() {
-        // Validation: Check if name is empty
+        // Checker if the name is empty
         if (txtName.getText().trim().isEmpty()) {
             JOptionPane.showMessageDialog(this, "Task Name cannot be empty!", "Error", JOptionPane.ERROR_MESSAGE);
             return;
@@ -101,3 +101,4 @@ public class TaskForm extends JFrame {
         dispose();
     }
 }
+
