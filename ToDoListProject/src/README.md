@@ -29,13 +29,4 @@ I organized the code into packages to separate concerns:
 * **`ui`**: Contains the GUI components (`MainFrame`, `TaskForm`).
 * **`src/Main.java`**: The entry point of the program.
 
-## How to Run (VS Code)
-1.  Open the `ToDoListProject` folder in VS Code.
-2.  Make sure the folder structure is correct (source files inside `src`).
-3.  Open `src/Main.java`.
-4.  Click the **Run** button (Play icon) at the top right, or run this command in the terminal:
 
-```bash
-cd src
-javac Main.java
-java Main
