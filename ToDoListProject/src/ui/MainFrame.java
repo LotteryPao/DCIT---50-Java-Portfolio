@@ -31,7 +31,7 @@ public class MainFrame extends JFrame {
         topPanel.add(btnAddTask);
         add(topPanel, BorderLayout.NORTH);
 
-        // 2. Create the Table
+        // 2. Creating the Table
         // Column names
         String[] columns = {"Task ID", "Task Name", "Task Description", "Status"};
         // Model handles the data
@@ -57,7 +57,7 @@ public class MainFrame extends JFrame {
             }
         });
         
-        // Center the window
+        // To center the window
         setLocationRelativeTo(null);
     }
 
@@ -66,7 +66,7 @@ public class MainFrame extends JFrame {
         // Clear existing data
         tableModel.setRowCount(0);
 
-        // Get fresh data from manager
+        
         ArrayList<Task> tasks = taskManager.getAllTasks();
 
         for (Task t : tasks) {
@@ -79,4 +79,5 @@ public class MainFrame extends JFrame {
             tableModel.addRow(rowData);
         }
     }
+
 }
