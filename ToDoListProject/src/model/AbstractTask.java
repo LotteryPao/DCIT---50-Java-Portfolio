@@ -17,11 +17,11 @@ public abstract class AbstractTask {
         this.taskDescription = taskDescription;
     }
 
-    // Abstract methods for status (to be implemented by children)
+    
     public abstract String getStatus();
     public abstract void setStatus(String status);
 
-    // Normal Getters and Setters
+    // The Getters and Setters
     public String getTaskId() {
         return taskId;
     }
@@ -45,4 +45,5 @@ public abstract class AbstractTask {
     public void setTaskDescription(String taskDescription) {
         this.taskDescription = taskDescription;
     }
+
 }
