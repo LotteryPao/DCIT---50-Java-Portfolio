@@ -1,12 +1,16 @@
 Laboratory Activity#6: Smart Home Control System 
 
- About this Project
-This is a simple Java program I created for my Laboratory Activity. It simulates a smart home system where you can control different devices like an Air Conditioner, Lamp, TV, and Microwave.
 
-The main goal of this project was to practice how to manage different objects (that share a parent class) using a single list.
+## Lab Activity Overview
+This Java Lab Activity is a simplified **Smart Home Management System** developed for "Smartify PH". It models the interaction between a central control system and various smart devices (AC, Lamps, TV, Microwave). 
 
- How it Works
-1.  The program creates instances of devices (AC, Lamps, TV, Microwave).
-2.  It copies one Lamp's settings to another using a **Copy Constructor**.
-3.  It puts all devices into a list.
-4.  A static method loops through the list to turn everything ON or OFF at once.
+This system demonstrates how a single list of devices can be managed polymorphically, allowing the main program to turn devices on/off and display their unique status details without knowing the specific object type at compile time.
+
+## 🎯 Key Learning Objectives
+This project fulfills the following Laboratory Activity requirements:
+* **Inheritance:** Creating specific devices (`AirConditioner`, `Television`, etc.) that inherit from a common `Device` class.
+* **Polymorphism:** Using parent references (`Device`) to hold child objects and demonstrating **Dynamic Binding** (overriding `showStatus()`).
+* **Encapsulation:** Protecting device attributes (like `temperature`, `volume`) and using setters to control state changes.
+* **Static Methods:** Implementing utility functions (`controlAllDevices`) that operate on lists of objects without belonging to a specific instance.
+* **Constructors:** Utilizing **Copy Constructors** (in the Lamp class) to duplicate object states.
+
