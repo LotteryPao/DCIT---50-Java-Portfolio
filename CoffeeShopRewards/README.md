@@ -1,14 +1,13 @@
 Laboratory Activiy 3 and 4: Coffee Shop Rewards System
 
-This Java program that I made  demonstrates the creation and management of objects using a custom `Book` class.
+* This is my solution for the BeanBrew Coffee Shop lab activity. The goal was to create a Java program that acts as a rewards system for a cafe. I wrote code to handle customer transactions, track loyalty points for free drinks, and keep a count of all registered customers using Object-Oriented Programming principles.
 
-Key Features
-Object Creation:Instantiated 5 distinct book objects with unique attributes (Title, Author, Year).
-*Methods: Implemented methods to display details, update the current page reading progress, and modify author names.
-Data Structures: Used an Array to store the objects and a Loop to filter and display books published after the year 2010.
+* Project Structure
+  - The system consists of a single Java file containing two classes:
+    
+* **Customer**: The blueprint for customer objects. It handles:
+* Storing names and point balances.
 
-## Concepts Applied
-- Classes & Objects
-- Constructors
-- Encapsulation (Getters/Setters logic)
-- Arrays and Loops
+* Tracking the total number of customers (Static).
+
+* Logic for adding points and redeeming rewards.
