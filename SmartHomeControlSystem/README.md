@@ -14,3 +14,19 @@ This project fulfills the following Laboratory Activity requirements:
 * **Static Methods:** Implementing utility functions (`controlAllDevices`) that operate on lists of objects without belonging to a specific instance.
 * **Constructors:** Utilizing **Copy Constructors** (in the Lamp class) to duplicate object states.
 
+
+🚀 Features implemented
+* **Centralized Control**: A static method to batch switch all devices ON or OFF.
+
+* **Device Counting**: A logic to count how many devices are currently consuming power.
+
+* Unique Behaviors includes:
+
+* **Air Conditioner**: Tracks fan speed and temperature.
+
+* **Lamp Shade**: Tracks brightness and color (includes a feature to clone settings from another lamp).
+
+* **Television**: Tracks channel and volume.
+
+* **Microwave**: Tracks timer and heat level.
+
