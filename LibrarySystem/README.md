@@ -1,14 +1,13 @@
-Laboratory Activity 1: Java Programming Review. 
-Basic Library Book Management System
+**Laboratory Activity 1: Java Programming Review. **
 
-A simple console application developed to demonstrate basic Java programming concepts.
+**Campus Library System**
 
-Features:
+It's a simple Java program that tracks book inventory and borrowing status using basic data structures like arrays.
 
-Add new books (stored in arrays).
+## Features:
 
-Toggle book status (Available/Borrowed).
+* Add new books (stored in arrays).
 
-View all books and generate summary reports.
+* Toggle book status (Available/Borrowed).
 
-Concepts Used: Arrays, Methods, Loops, and Scanner input.
+* View all books and generate summary reports.
