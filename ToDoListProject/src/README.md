@@ -1,6 +1,6 @@
-DCIT 50: FINAL LABORATORY EXAM
+**DCIT 50: FINAL LABORATORY EXAM**
 
-Project: A Simple Student TO-D0 List Application 
+**Project: A Simple Student TO-D0 List Application **
 
 ## Overview
 A Java Swing application. My task for this is to solve the problem of disorganized school tasks by building a digital To-Do List.
@@ -13,13 +13,6 @@ It allows users to add tasks, view them in a table, and track their status (Not 
 * **Status Tracking:** Tasks can be marked as "Not Started", "Ongoing", or "Completed".
 * **Validation:** Prevents saving empty tasks.
 * **OOP Implementation:** Uses Inheritance, Abstraction, and Encapsulation.
-
-## OOP Concepts Used
-I applied several core OOP concepts in this project:
-1.  **Abstraction:** Created an `AbstractTask` parent class to define the blueprint for all tasks.
-2.  **Inheritance:** The `Task` and `TimedTask` classes inherit attributes and methods from `AbstractTask`.
-3.  **Encapsulation:** All attributes are `private` or `protected` and accessed via public getters and setters.
-4.  **Polymorphism:** Overriding the `getStatus()` method in the child classes.
 
 ## Project Structure
 I organized the code into packages to separate concerns:
