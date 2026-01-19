@@ -1,11 +1,16 @@
-Laboratory Activity #2: Working with Java classes and objects. 
+* Laboratory Activity #2: **Working with Java classes and objects**. 
 
 This program that I made focuses on Class and Object implementation in Java OOP.
 
-Key Features includes: 
+It demonstrates the creation and management of objects using a custom `Book` class.
 
-Object Creation: Instantiating multiple book objects with constructors.
+## Features
+* **Object Creation:** Instantiated 5 distinct book objects with unique attributes (Title, Author, Year).
+* **Methods:** Implemented methods to display details, update the current page reading progress, and modify author names.
+* **Data Structures:** Used an Array to store the objects and a Loop to filter and display books published after the year 2010.
 
-Attribute Modification: Using methods to update specific book details (e.g., changePage, setAuthor).
-
-Data Filtering: Storing objects in an array and looping through them to find books published after 2010
+## Concepts Applied
+* Classes & Objects
+* Constructors
+* Encapsulation (Getters/Setters logic)
+* Arrays and Loops
