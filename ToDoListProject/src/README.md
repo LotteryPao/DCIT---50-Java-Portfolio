@@ -1,6 +1,6 @@
 **DCIT 50: FINAL LABORATORY EXAM**
 
-**Project: A Simple Student TO-D0 List Application **
+**A Simple Student TO-D0 List Application**
 
 ## Overview
 A Java Swing application. My task for this is to solve the problem of disorganized school tasks by building a digital To-Do List.
