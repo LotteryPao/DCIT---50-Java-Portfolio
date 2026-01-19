@@ -1,1 +1,2 @@
-Laboratory Activity #5: Modeling a School Management System
+Laboratory Activity: Modeling a School Management
+System
