@@ -1,14 +1,14 @@
-DCIT-50: Midterms Laboratory Examination
+**DCIT-50: Midterms Laboratory Examination**
 
-This Java program simulates a Simplified Smart Home System. 
+This Java program that I made simulates a Simplified Smart Home System. 
 
 It models different electronic devices, allowing users to control their status,
 settings, and view their information using Object-Oriented Programming (OOP) principles
 
-Project Structure
+## Project Structure
 The project consists of the following classes:
 
-• Device.java
+**• Device.java**
 
 - The parent class (superclass).
 
@@ -16,15 +16,15 @@ The project consists of the following classes:
 
 - Includes a static variable deviceCount to track the total number of devices created.
 
-• LightBulb.java
+**• LightBulb.java**
 
-A subclass of Device.
+- A subclass of Device.
 
-Adds specific attributes: brightnessLevel and color.
+- Adds specific attributes: brightnessLevel and color.
 
-Contains constructor overloading to allow creating bulbs with different default settings.
+- Contains constructor overloading to allow creating bulbs with different default settings.
 
-• Thermostat.java
+**• Thermostat.java**
 
 - A subclass of Device.
 
@@ -32,13 +32,13 @@ Contains constructor overloading to allow creating bulbs with different default 
 
 - Includes method overloading for setTemperature() to update settings in different ways.
 
-•SmartHomeController.java
+**•SmartHomeController.java**
 
 - A controller class that manages an array of devices.
 
 - Demonstrates how to iterate through objects to perform bulk actions (like turning all devices ON or OFF).
 
-• Main.java (or SmartHomeMain.java)
+**• Main.java (or SmartHomeMain.java)**
 
 - The main entry point of the program.
 
