@@ -1,4 +1,4 @@
-* Laboratory Activity #2: **Working with Java classes and objects**. 
+**Laboratory Activity #2: Working with Java classes and objects. **
 
 This program that I made focuses on Class and Object implementation in Java OOP.
 
