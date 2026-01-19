@@ -2,7 +2,7 @@
 
 
 ## Overview
-This system that I made is a Java-based Laboratory Activity designed to model a simple **School Management System**.
+This system that I made is designed to model a simple **School Management System**.
 
 The program creates a hierarchy where students and teachers share common attributes but maintain specific roles and data.
 
