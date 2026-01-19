@@ -15,6 +15,7 @@ Laboratory Activiy 3 and 4: Coffee Shop Rewards System
      - Displaying outputs to the console.
 
 The goal of this system is to automate rewards for BeanBrew CoffeeShop.
+
 **Rules**
      - Customers earn points for every purchase.
      - 100 Points = 1 Free Drink Redemption.
