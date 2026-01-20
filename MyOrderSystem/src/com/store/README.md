@@ -1,8 +1,9 @@
-Laboratory Activity #7: Order Management System
-This project creates a modular backend for an online store to demonstrate **Abstraction ** and **Encapsulation**. 
+**Laboratory Activity #7: Order Management System**
+
+This project creates a modular backend for an online store to demonstrate **Abstraction** and **Encapsulation**. 
 It manages order lifecycles (Pending -> Paid -> Shipped) while ensuring data security through strict access modifiers.
 
- Project Structure
+## Project Structure
 The code is organized into specific packages to separate concerns:
 * `com.store.order` - Contains the logic for order creation and status management.
 * `com.store.payment` - Handles payment contracts via Interfaces.
