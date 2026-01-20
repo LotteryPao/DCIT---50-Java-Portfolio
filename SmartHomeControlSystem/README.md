@@ -1,4 +1,4 @@
-**Laboratory Activity#6: Smart Home Control System **
+**Laboratory Activity#6: Smart Home Control System**
 
 
 ## System Overview
