@@ -9,7 +9,7 @@ The code is organized into specific packages to separate concerns:
 * `com.store.payment` - Handles payment contracts via Interfaces.
 * `com.store.main` - The main application entry point.
 
- Key Features implemented
+## Key Features 
 1.  **Abstraction:** Uses an `abstract class Order` to define the blueprint for all orders.
 2.  **Interfaces:** Implements a `Payable` interface to standardize payment processing.
 3.  **Encapsulation:** All class fields are `private`. Access is controlled via Getters/Setters with validation (e.g., preventing negative order amounts).
