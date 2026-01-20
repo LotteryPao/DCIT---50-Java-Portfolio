@@ -1,6 +1,6 @@
-**Laboratory Activity 1: Java Programming Review. **
+**Laboratory Activity 1: Java Programming Review.**
 
-**Campus Library System**
+## **Campus Library System**
 
 It's a simple Java program that tracks book inventory and borrowing status using basic data structures like arrays.
 
