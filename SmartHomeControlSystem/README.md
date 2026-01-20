@@ -1,6 +1,5 @@
 **Laboratory Activity#6: Smart Home Control System**
 
-
 ## System Overview
 This Java Lab Activity is a simplified **Smart Home Management System** developed for "Smartify PH". It models the interaction between a central control system and various smart devices (AC, Lamps, TV, Microwave). 
 
